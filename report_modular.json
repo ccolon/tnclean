@@ -1,0 +1,24 @@
+{
+  "input_count": 4,
+  "output_count": 2,
+  "output_connected_components": 2,
+  "input_total_length": 35425.04355129285,
+  "output_total_length": 0.3150033425292867,
+  "length_change": -35424.728547950326,
+  "length_change_percent": -99.99911078911711,
+  "small_components_found": 2,
+  "small_components_removed": 2,
+  "small_component_features_removed": 2,
+  "processing_time": 0.8311200141906738,
+  "memory_peak_mb": 0.0,
+  "original_crs": "EPSG:4326",
+  "processing_crs": "EPSG:32631",
+  "config": {
+    "remove_small_components": true,
+    "min_component_features": 1,
+    "min_component_length": 1000.0
+  },
+  "validation_issues": [],
+  "pipeline_version": "0.1.0",
+  "timestamp": "2025-09-03 18:47:43 UTC"
+}

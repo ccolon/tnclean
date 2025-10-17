@@ -1,0 +1,11 @@
+{
+  "input_count": 2,
+  "input_multilinestring_count": 1,
+  "exploded_count": 3,
+  "output_count": 4,
+  "input_total_length": 0.013298025825257336,
+  "output_total_length": 0.013298025825257336,
+  "processing_time": 0.343902587890625,
+  "operation": "explode",
+  "timestamp": "2025-09-01 12:49:11 UTC"
+}

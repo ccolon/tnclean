@@ -1,0 +1,81 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:4326"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "highway": "primary",
+        "name": "Highway 101 North",
+        "lanes": 4,
+        "surface": "asphalt",
+        "ref": "US-101"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [16.3700, 48.1900],
+          [16.3700, 48.1950],
+          [16.3700, 48.2000]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "highway": "primary",
+        "name": "Highway 101 South", 
+        "lanes": 4,
+        "surface": "concrete",
+        "ref": "US-101"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [16.3700, 48.2000],
+          [16.3700, 48.2050],
+          [16.3700, 48.2100]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "highway": "secondary",
+        "name": "Oak Street",
+        "lanes": 2,
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [16.3650, 48.2000],
+          [16.3700, 48.2000],
+          [16.3750, 48.2000]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "highway": "residential",
+        "name": "Elm Avenue",
+        "lanes": 1,
+        "surface": "gravel"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [16.3700, 48.2000],
+          [16.3720, 48.2020],
+          [16.3740, 48.2040]
+        ]
+      }
+    }
+  ]
+}

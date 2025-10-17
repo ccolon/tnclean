@@ -1,0 +1,32 @@
+# tnclean configuration file example
+
+# CRS settings
+metric_crs: auto  # Auto-select appropriate metric CRS
+
+# Core tolerances (in meters when using metric CRS)
+snap_precision: 1.0           # Grid size for coordinate quantization
+overlap_tolerance: 0.5        # Proximity tolerance for overlap detection
+simplify_tolerance: 2.0       # Geometric tolerance for simplification
+prune_epsilon: 0.1           # Threshold for pruning tiny segments
+
+# Processing options
+dedup_policy: keep-shortest   # How to resolve duplicates: keep-shortest, keep-first, keep-longest
+keep_parallel_edges: false   # Keep parallel edges even when endpoints match
+
+# Field preservation
+preserve_fields:             # List of fields to preserve (null = preserve all)
+  - highway
+  - name
+  - lanes
+
+# Performance tuning
+pairing_batch_size: 100000           # Batch size for overlap detection
+pairing_bearing_delta_deg: 5.0       # Bearing difference threshold (degrees)
+pairing_length_ratio_min: 0.5        # Minimum length ratio for pairing
+pairing_length_ratio_max: 2.0        # Maximum length ratio for pairing  
+pairing_overlap_alpha: 0.9           # Overlap ratio threshold
+
+# Validation and output
+strict_validation: false      # Fail on tolerance validation issues
+progress_bar: true           # Show progress bars
+verbose: 1                   # Verbosity level (0=quiet, 1=info, 2=debug)

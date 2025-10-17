@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+"name": "test_small_components_fixed",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "Main Road 1" }, "geometry": { "type": "LineString", "coordinates": [ [ 0.0, 0.0 ], [ 0.1, 0.0 ], [ 0.2, 0.0 ] ] } },
+{ "type": "Feature", "properties": { "name": "Main Road 2" }, "geometry": { "type": "LineString", "coordinates": [ [ 0.2, 0.0 ], [ 0.3, 0.0 ] ] } },
+{ "type": "Feature", "properties": { "name": "Small Fragment 1" }, "geometry": { "type": "LineString", "coordinates": [ [ 1.0, 1.0 ], [ 1.001, 1.0 ] ] } },
+{ "type": "Feature", "properties": { "name": "Small Island A" }, "geometry": { "type": "LineString", "coordinates": [ [ 2.0, 2.0 ], [ 2.001, 2.0 ] ] } },
+{ "type": "Feature", "properties": { "name": "Small Island B" }, "geometry": { "type": "LineString", "coordinates": [ [ 2.001, 2.0 ], [ 2.002, 2.0 ] ] } },
+{ "type": "Feature", "properties": { "name": "Medium Road 1" }, "geometry": { "type": "LineString", "coordinates": [ [ 3.0, 3.0 ], [ 3.005, 3.0 ], [ 3.01, 3.0 ] ] } },
+{ "type": "Feature", "properties": { "name": "Medium Road 2" }, "geometry": { "type": "LineString", "coordinates": [ [ 3.01, 3.0 ], [ 3.015, 3.0 ] ] } }
+]
+}

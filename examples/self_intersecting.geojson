@@ -1,0 +1,48 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:4326"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature", 
+      "properties": {
+        "highway": "residential",
+        "name": "Loop Road",
+        "lanes": 2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [16.3600, 48.2000],
+          [16.3650, 48.2050],
+          [16.3700, 48.2025],
+          [16.3750, 48.1950],
+          [16.3800, 48.2000],
+          [16.3750, 48.2050],
+          [16.3700, 48.1975],
+          [16.3650, 48.1950],
+          [16.3600, 48.2000]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "highway": "primary",
+        "name": "Cross Street",
+        "lanes": 4
+      },
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+          [16.3580, 48.2025],
+          [16.3820, 48.1975]
+        ]
+      }
+    }
+  ]
+}

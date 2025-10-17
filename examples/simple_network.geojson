@@ -1,0 +1,80 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:4326"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "highway": "primary",
+        "name": "Main Street",
+        "lanes": 2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-73.9857, 40.7484],
+          [-73.9847, 40.7494],
+          [-73.9837, 40.7504]
+        ]
+      }
+    },
+    {
+      "type": "Feature", 
+      "properties": {
+        "highway": "secondary",
+        "name": "Cross Street",
+        "lanes": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-73.9847, 40.7484],
+          [-73.9847, 40.7494],
+          [-73.9847, 40.7504]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "highway": "trunk",
+        "name": "Highway 101",
+        "lanes": 4
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [-73.9877, 40.7474],
+            [-73.9867, 40.7484]
+          ],
+          [
+            [-73.9867, 40.7484], 
+            [-73.9857, 40.7494]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "highway": "primary", 
+        "name": "Main Street",
+        "lanes": 2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-73.9858, 40.7485],
+          [-73.9848, 40.7495],
+          [-73.9838, 40.7505]
+        ]
+      }
+    }
+  ]
+}

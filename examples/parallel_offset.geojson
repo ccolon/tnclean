@@ -1,0 +1,99 @@
+{
+  "type": "FeatureCollection", 
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:4326"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "highway": "primary",
+        "name": "Highway Centerline",
+        "lanes": 4,
+        "direction": "both"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [16.3700, 48.2000],
+          [16.3750, 48.2000], 
+          [16.3800, 48.2000],
+          [16.3850, 48.2000]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "highway": "primary",
+        "name": "Highway North Lane", 
+        "lanes": 2,
+        "direction": "east"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [16.3700, 48.2000135],
+          [16.3750, 48.2000135],
+          [16.3800, 48.2000135], 
+          [16.3850, 48.2000135]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "highway": "primary",
+        "name": "Highway South Lane",
+        "lanes": 2,
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [16.3850, 48.1999865],
+          [16.3800, 48.1999865],
+          [16.3750, 48.1999865],
+          [16.3700, 48.1999865]
+        ]
+      }
+    },
+    {
+      "type": "Feature", 
+      "properties": {
+        "highway": "cycleway",
+        "name": "Bike Path",
+        "lanes": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [16.3700, 48.2001000],
+          [16.3750, 48.2001000],
+          [16.3800, 48.2001000],
+          [16.3850, 48.2001000]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "highway": "footway", 
+        "name": "Sidewalk",
+        "lanes": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [16.3700, 48.1998500],
+          [16.3750, 48.1998500],
+          [16.3800, 48.1998500],
+          [16.3850, 48.1998500]
+        ]
+      }
+    }
+  ]
+}

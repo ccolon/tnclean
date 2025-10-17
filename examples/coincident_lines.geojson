@@ -1,0 +1,84 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:4326"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "highway": "primary",
+        "name": "Highway A",
+        "lanes": 4,
+        "surface": "asphalt",
+        "maxspeed": 80
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [16.3700, 48.2000],
+          [16.3750, 48.2025], 
+          [16.3800, 48.2000],
+          [16.3850, 48.1975]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "highway": "primary",
+        "name": "Highway B", 
+        "lanes": 4,
+        "surface": "concrete",
+        "maxspeed": 80
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [16.3700, 48.2000],
+          [16.3750, 48.2025],
+          [16.3800, 48.2000], 
+          [16.3850, 48.1975]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "highway": "primary",
+        "name": "Highway C",
+        "lanes": 6,
+        "surface": "asphalt",
+        "maxspeed": 100
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [16.3700, 48.2000],
+          [16.3750, 48.2025],
+          [16.3800, 48.2000],
+          [16.3850, 48.1975]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "highway": "secondary",
+        "name": "Side Road",
+        "lanes": 2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [16.3650, 48.2050],
+          [16.3750, 48.2025],
+          [16.3850, 48.2050]
+        ]
+      }
+    }
+  ]
+}

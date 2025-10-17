@@ -1,0 +1,102 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:4326"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "highway": "primary",
+        "name": "Main Road",
+        "lanes": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [16.3700, 48.2000],
+          [16.3800, 48.2000]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "highway": "primary", 
+        "name": "Micro Segment 1",
+        "lanes": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [16.3800, 48.2000],
+          [16.3800001, 48.2000001]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "highway": "primary",
+        "name": "Micro Segment 2", 
+        "lanes": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [16.3800001, 48.2000001],
+          [16.3800002, 48.2000001]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "highway": "primary",
+        "name": "Continuation Road",
+        "lanes": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [16.3800002, 48.2000001],
+          [16.3900, 48.2000]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "highway": "residential",
+        "name": "Zero Length Segment",
+        "lanes": 2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [16.3750, 48.2050],
+          [16.3750, 48.2050],
+          [16.3750, 48.2050]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "highway": "tertiary",
+        "name": "Nearly Zero Segment",
+        "lanes": 1
+      },
+      "geometry": {
+        "type": "LineString", 
+        "coordinates": [
+          [16.3700, 48.1950],
+          [16.3700000001, 48.1950000001]
+        ]
+      }
+    }
+  ]
+}

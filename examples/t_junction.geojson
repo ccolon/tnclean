@@ -1,0 +1,44 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:4326"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "highway": "primary",
+        "name": "Main Highway",
+        "lanes": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [16.3600, 48.2000],
+          [16.3700, 48.2000],
+          [16.3800, 48.2000],
+          [16.3900, 48.2000]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "highway": "secondary",
+        "name": "Branch Road",
+        "lanes": 2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [16.3700, 48.2000],
+          [16.3700, 48.2050],
+          [16.3700, 48.2100]
+        ]
+      }
+    }
+  ]
+}

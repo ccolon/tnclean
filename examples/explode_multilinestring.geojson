@@ -1,0 +1,51 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:4326"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "highway": "primary",
+        "name": "Highway 101",
+        "lanes": 4
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [16.3700, 48.2000],
+            [16.3710, 48.2010]
+          ],
+          [
+            [16.3720, 48.2020],
+            [16.3730, 48.2030]
+          ],
+          [
+            [16.3740, 48.2040],
+            [16.3750, 48.2050]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "highway": "secondary",
+        "name": "Oak Street",
+        "lanes": 2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [16.378, 48.1980],
+          [16.3770, 48.2070]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:4326"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "highway": "primary",
+        "name": "Main Road",
+        "lanes": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [16.3700, 48.2000],
+          [16.3710, 48.2010],
+          [16.3720, 48.2020]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "highway": "primary",
+        "name": "Side Road",
+        "lanes": 2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [16.3720, 48.2020],
+          [16.3730, 48.2010],
+          [16.3740, 48.2000]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "highway": "residential",
+        "name": "Connect Road", 
+        "lanes": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [16.3740, 48.2000],
+          [16.3750, 48.1990]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(../tn/Scripts/python.exe:*)",
+      "Bash(echo:*)",
+      "Bash(../../../tn/Scripts/python.exe -m tnclean:*)",
+      "Bash(grep:*)",
+      "Bash(for file in /mnt/c/Users/Celian/OneDrive/Research/OSMsimp/toolbox/tnclean/src/tnclean/modules/{deoverlap,merge_degree2,remove_components,simplify}.py)",
+      "Bash(do echo \"Fixing $file\")",
+      "Bash(done)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
